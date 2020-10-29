@@ -1,0 +1,25 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ogilliam/code-challenge.git"
+  },
+  "author": "Orion Gilliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ogilliam/code-challenge/issues"
+  },
+  "homepage": "https://gitlab.com/ogilliam/code-challenge#readme",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "minimist": "^1.2.5",
+    "mysql2": "^2.2.5"
+  }
+}
